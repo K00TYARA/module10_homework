@@ -1,0 +1,60 @@
+main {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+input {
+    height: 25px;
+    border-color: #315EFB;
+}
+
+button {
+    background-color: #315EFB;
+    width: 100px;
+    height: 33px;
+    border: none;
+    color: antiquewhite;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.messages {
+    margin-top: 20px;
+    width: 385px;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.client {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.server {
+    display: flex;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.typing {
+    color: gray;
+}
+
+span {
+    padding: 7px;
+    border: solid 2px #315EFB;
+    border-radius: 10px;
+    max-width: 150px;
+    overflow-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
